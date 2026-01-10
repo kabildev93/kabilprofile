@@ -79,4 +79,4 @@ jobs:
 
       - name: Deployment failed
         if: failure()
-        run: echo "❌ Deployment to EC2 failed!"
+        run: echo "❌ Deployment to EC2 failed! "
